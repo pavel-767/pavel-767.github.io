@@ -1,0 +1,87 @@
+.productContent {
+    max-width: 1024px;
+    height: 250px;
+
+    margin: auto;
+    margin-bottom: 10px;
+
+    background-color: white;
+    display: flex;
+}
+
+.productDetails {
+    flex: 1;
+    padding: 0px 10px;
+    font-family: 'FiraSans-Regular';
+}
+
+.productDetails h1 {
+    font-family: 'RussoOne-Regular';
+    font-weight: 300;
+}
+
+.productImage {
+    width: 250px;
+    height: 250px;
+}
+
+.productPrice {
+    width: 160px;
+    height: 250px;
+    text-align: center;
+    margin: 10px;
+    font-family: 'RussoOne-Regular';
+}
+
+.productPrice h2 {
+    font-family: "FiraSans-Bold";
+}
+
+@media (max-width: 1600px) {
+    .productContent {
+        max-width: 75%;
+    }
+}
+
+@media (max-width:767px) {
+    .productContent {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+   
+    .productImages {
+        width: 100%;
+        height: auto;
+    }
+
+    .productPrice {
+        width: auto;
+        height: auto;
+    }
+
+    .productPrice h1 {
+        /* float: left; */
+    }
+
+
+    .productPrice h2 {
+        /* float: right; */
+        padding: 10px;
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
